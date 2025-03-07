@@ -1,0 +1,29 @@
+load ClarkY.dat
+pane
+ppar
+N 400
+
+
+pane
+oper
+visc 275799.511957
+mach 0.387146
+iter 400
+vpar
+xtr
+1.000000
+1.000000
+N
+9.000000
+vacc
+0.010000
+
+pacc
+
+
+aseq -1.698599 -1.698599 -1.698599
+cpwr cp_values.txt
+pwrt
+xfoil.out
+
+quit

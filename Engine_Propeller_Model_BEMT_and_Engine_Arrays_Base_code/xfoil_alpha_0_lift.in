@@ -1,0 +1,22 @@
+load ClarkY.dat
+pane
+ppar
+N
+200
+
+
+pane
+oper
+visc 231570.178340
+mach 0.129669
+iter
+600
+pacc
+
+
+cl 0.000000
+cpwr cp_values_alpha_0_lift.txt
+pwrt
+xfoil_alpha_0_lift.out
+
+quit
